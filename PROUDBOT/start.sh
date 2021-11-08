@@ -14,10 +14,7 @@
 #
 
 
-echo """
-              
-Legendary PYTHONBOT-V9.0.8!!
-@Python_Userbot_Support
+echo """PROUD INDIAN BOT
 """
 
 python3 -m userbot
