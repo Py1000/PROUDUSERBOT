@@ -105,7 +105,7 @@ TYPE :- " .gpromote @Legendl_Mr_Hacker " OR .python OR .ping CHECK IF I'M ON!
 
 
 
-async def python_is_on():
+async def bot_is_on():
     try:
         if Config.LOGGER_ID != 0:
             await bot.send_file(
@@ -118,17 +118,17 @@ async def python_is_on():
 
 # Join PythonBot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Python_Updata"))
+        await bot(JoinChannelRequest("@INDIANBOTSUPPORT"))
     except BaseException:
         pass
 
     try:
-        await bot(JoinChannelRequest("@Python_Userbot_Support"))
+        await bot(JoinChannelRequest("@PROUD_INDIAN_BOT"))
     except BaseException:
          pass
 
 
-bot.loop.create_task(python_is_on())
+bot.loop.create_task(bot_is_on())
 
 if len(sys.argv) not in (1, 3, 4):
     bot.disconnect()
