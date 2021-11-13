@@ -12,7 +12,7 @@ PYTHONversion = "𝚅9.0.8"
 botversion = "𝚅9.0.8"
 
 os.system("pip install --upgrade pip")
-if Var.STONEDLEGEND_STRING:
+if Var.StonedLegend_STRING:
     session_name = str(Var.PYTHON_STRING)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
