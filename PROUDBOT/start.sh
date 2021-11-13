@@ -14,7 +14,7 @@
 #
 
 
-echo """PROUD INDIAN BOT
+echo """PROUD-INDIAN-BOT
 """
 
-python3 -m userbot
+python3 m userbot
