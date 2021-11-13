@@ -4,7 +4,7 @@
 echo """
                                
 """
-rm -rf python_support_zone
-git clone https://github.com/LEGEND-LX/python_support_zone
-cd python_support_zone
-python3 -m userbot
+rm -rf PROUD-INDIAN-BOT
+git clone https://github.com/StonedLegend/PROUD-INDIAN-BOT
+cd PROUD-INDIAN-BOT
+StonedLegend - PROUD-INDIAN-BOT
